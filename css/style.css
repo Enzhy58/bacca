@@ -1,0 +1,53 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    background-color: #fff;
+    color: rgba(20, 19, 69, 0.8);
+}
+
+.container--big,
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.container--big {
+    max-width: 1735px;
+}
+
+.container {
+    max-width: 1296px;
+}
+
+.bg {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover; 
+}
+
+.header {
+    padding: 24px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__list {
+    display: flex;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #141345;
+}
+
+.menu__item:not(:last-child) {
+    margin-right: 32px;
+}
+
+.menu__link--active {
+    color: #433FB5;
+}
