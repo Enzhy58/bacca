@@ -424,7 +424,7 @@ body {
 }
 
 .success {
-    margin-bottom: 160px;
+    margin-bottom: -70px;
     text-align: center;
 }
 
@@ -441,6 +441,7 @@ body {
     border-radius: 40px;
     padding: 76px 60px 40px 60px;
     margin-bottom: 40px;
+    text-align: center;
     position: relative;
 }
 
@@ -477,6 +478,22 @@ body {
     margin-right: 20px;
 }
 
+.advantages__item--fast::before {
+    background-image: url(../images/benefits/1.svg);
+}
+
+.advantages__item--independent::before {
+    background-image: url(../images/benefits/2.svg);
+}
+
+.advantages__item--employment::before {
+    background-image: url(../images/benefits/3.svg);
+}
+
+.advantages__item--effortless::before {
+    background-image: url(../images/benefits/4.svg);
+}
+
 .advantages__title {
     font-weight: 600;
     font-size: 20px;
@@ -488,6 +505,11 @@ body {
     max-width: 310px;
     width: 100%;
     margin: 0 auto;
+}
+
+.choose {
+    position: relative;
+    bottom: -280px;
 }
 
 .choose__title {
@@ -587,4 +609,81 @@ body {
 
 .skills__item:not(:last-child) {
     margin-right: 8px;
+}
+
+.benefits {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.benefits__inner {
+    padding: 460px 0 160px 0;
+}
+
+.benefits__title {
+    text-align: center;
+    color: #F0EEFC;
+}
+
+.tell {
+    padding-bottom: 160px;
+    color: #F0EEFC;
+    position: relative;
+}
+
+.tell::before {
+    content: '';
+    position: absolute;
+    width: 144px;
+    height: 58px;
+    bottom: 50%;
+    left: 25%;
+    background-image: url(../images/icons/arrow-tell.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.tell__inner {
+    display: flex;
+    justify-content: center;
+}
+
+.tell__title {
+    max-width: 322px;
+    width: 100%;
+    color: #F0EEFC;
+    margin-right: 164px;
+}
+
+.tell__item {
+    font-size: 16px;
+    line-height: 20px;
+    color: #F0EEFC;
+    padding-left: 36px;
+    position: relative;
+}
+
+.tell__item::before {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 0;
+    top: 0;
+    background-image: url("../images/icons/check.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.tell__item:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.tell__link {
+    display: block;
+    width: 191px;
+    margin: 0 auto;
 }
