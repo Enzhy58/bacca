@@ -66,6 +66,14 @@ body {
     background-position: center;
 }
 
+.title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #141345;
+    margin-bottom: 64px;
+}
+
 .header {
     padding: 24px;
     margin-bottom: 80px;
@@ -218,6 +226,7 @@ body {
 .services {
     position: relative;
     top: -50px;
+    margin-bottom: 160px;
 }
 
 .services__inner {
@@ -302,4 +311,51 @@ body {
     margin-right: 20px;
 }
 
+.events {
+    margin-bottom: 160px;
+}
+
+.events__title {
+    margin-bottom: 56px;
+}
+
+.article {
+    max-width: 412px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #F0EEFC;
+    color: #141345;
+    border-radius: 40px;
+    margin-right: 20px;
+}
+
+.article__top {
+    position: relative;
+}
+
+.article__img {
+    width: 100%;
+    border-radius: 40px 40px 0 40px;
+}
+
+.article__link {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.article__bottom {
+    padding: 20px 16px 40px 16px;
+}
+
+.article__time {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.article__title {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
 
