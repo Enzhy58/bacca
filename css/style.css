@@ -422,3 +422,70 @@ body {
     color: #141345;
     margin-bottom: 44px;
 }
+
+.success {
+    margin-bottom: 160px;
+    text-align: center;
+}
+
+.advantages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.advantages__item {
+    max-width: 520px;
+    width: 100%;
+    background-color: #F0EEFC;
+    border-radius: 40px;
+    padding: 76px 60px 40px 60px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.advantages__item::before {
+    content: '';
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.advantages__item--management::before {
+    background-image: url(../images/success/1.svg);
+}
+
+.advantages__item--creation::before {
+    background-image: url(../images/success/2.svg);
+}
+
+.advantages__item--team::before {
+    background-image: url(../images/success/3.svg);
+}
+
+.advantages__item--advice::before {
+    background-image: url(../images/success/4.svg);
+}
+
+.advantages__item:nth-child(odd) {
+    margin-right: 20px;
+}
+
+.advantages__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #141345;
+    margin-bottom: 16px;
+}
+.advantages__text {
+    max-width: 310px;
+    width: 100%;
+    margin: 0 auto;
+}
