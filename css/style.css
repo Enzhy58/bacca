@@ -124,3 +124,18 @@ body {
     border-radius: 48px;
     padding: 16px;
 }
+
+.partners {
+    max-width: 830px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 160px;
+}
+
+.partners__item {
+    margin: 0 28px 16px 28px;
+}
