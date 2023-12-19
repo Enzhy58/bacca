@@ -615,10 +615,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 460px 0 420px 0;
 }
 
 .benefits__inner {
-    padding: 460px 0 160px 0;
+    padding-bottom: 160px;
 }
 
 .benefits__title {
@@ -627,7 +628,6 @@ body {
 }
 
 .tell {
-    padding-bottom: 160px;
     color: #F0EEFC;
     position: relative;
 }
@@ -686,4 +686,66 @@ body {
     display: block;
     width: 191px;
     margin: 0 auto;
+}
+
+.industries {
+    position: relative;
+    top: -240px;
+}
+
+.industries__title {
+    text-align: center;
+    color: #F0EEFC;
+}
+
+.industries__list {
+    display: flex;
+}
+
+.industries__item {
+    max-width: 412px;
+    width: 100%;
+    background-color: #21205A;
+    text-align: center;
+    border-radius: 40px;
+    padding: 76px 32px 64px 32px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.industries__item::before {
+    content: '';
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.industries__item--companies::before {
+    background-image: url(../images/industries/1.svg);
+}
+
+.industries__item--startups::before {
+    background-image: url(../images/industries/2.svg);
+}
+
+.industries__item--mnes::before {
+    background-image: url(../images/industries/3.svg);
+}
+
+.industries__item-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F0EEFC;
+    margin-bottom: 16px;
+}
+
+.industries__item-text {
+    color: rgba(240, 238, 252, 0.8);
 }
