@@ -757,6 +757,7 @@ body {
 .portfolio {
     background-color: #F0EEFC;
     padding-top: 362px;
+    padding-bottom: 662px;
 }
 
 .portfolio__title {
@@ -819,4 +820,51 @@ body {
 
 .portfolio__item--orange {
     background-color: #FDB09B;
+}
+
+.design {
+    background-color: #F0EEFC;
+}
+
+.design__title {
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.design__list {
+    display: flex;
+    justify-content: center;
+}
+
+.design__item {
+    max-width: 520px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 36px 32px 32px 32px;
+}
+
+.design__item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.design__item-img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.design__item-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.design__item-text p:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.design__item-point {
+    list-style: disc;
+    margin-left: 20px
 }
