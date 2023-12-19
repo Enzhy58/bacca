@@ -690,6 +690,10 @@ body {
 
 .industries {
     position: relative;
+}
+
+.industries__inner {
+    position: absolute;
     top: -240px;
 }
 
@@ -748,4 +752,71 @@ body {
 
 .industries__item-text {
     color: rgba(240, 238, 252, 0.8);
+}
+
+.portfolio {
+    background-color: #F0EEFC;
+    padding-top: 362px;
+}
+
+.portfolio__title {
+    margin-bottom: 56px;
+}
+
+.portfolio__list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+.portfolio__item:nth-child(1),
+.portfolio__item:nth-child(4) {
+  grid-column: span 3;
+}
+
+.portfolio__item:nth-child(2),
+.portfolio__item:nth-child(3) {
+  grid-column: span 2;
+}
+
+.portfolio__item {
+    padding: 32px 32px 0 32px;
+    border-radius: 40px;
+    position: relative;
+}
+
+.portfolio__item::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    right: 20px;
+    background-image: url("../images/icons/arrow-portfolio.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.portfolio__item-title {
+    max-width: 612px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.portfolio__item--green {
+    background-color: #CDF1ED;
+}
+
+.portfolio__item--pink {
+    background-color: #FFCAEC;
+}
+
+.portfolio__item--white {
+    background-color: #fff;
+}
+
+.portfolio__item--orange {
+    background-color: #FDB09B;
 }
