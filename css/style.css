@@ -521,6 +521,10 @@ body {
     margin-bottom: 32px;
 }
 
+.choose__list .slick-arrow {
+    top: -13%;
+}
+
 .choose__text {
     font-weight: 600;
     font-size: 20px;
@@ -769,6 +773,10 @@ body {
     margin-bottom: 56px;
 }
 
+.portfolio__slider .slick-arrow {
+    top: -7%;
+}
+
 .portfolio__list {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -791,24 +799,17 @@ body {
     position: relative;
 }
 
-.portfolio__item::before {
-    content: '';
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    top: 20px;
-    right: 20px;
-    background-image: url("../images/icons/arrow-portfolio.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
 .portfolio__item-title {
     max-width: 612px;
     width: 100%;
     font-weight: 600;
     font-size: 20px;
+}
+
+.portfolio__btn {
+    position: absolute;
+    right: 5%;
+    top: 5%;
 }
 
 .portfolio__item--green {
