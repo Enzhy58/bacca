@@ -980,6 +980,10 @@ body {
     .top__title--small:not(:last-child) {
         margin-bottom: 16px;
     }
+
+    .technologies__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
     
 }
 
@@ -1087,6 +1091,16 @@ body {
     .description__item {
         font-size: 16px;
         line-height: 16px;
+    }
+
+    .services__inner {
+        display: block;
+    }
+
+    .expertise {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
     }
 
 }
@@ -1200,6 +1214,19 @@ body {
 
     .description__item {
         font-size: 14px;
+    }
+
+    .services__title {
+        margin-bottom: 32px;
+    }
+
+    .expertise__item {
+        font-weight: 400;
+    }
+
+    .technologies__list {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
     }
 
 }
