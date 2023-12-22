@@ -1,4 +1,22 @@
 $(function () {
+
+    $('.menu__open').on('click', function () {
+        $('.menu__box').addClass('menu__box--active');
+    });
+
+    $('.menu__close').on('click', function () {
+        $('.menu__box').removeClass('menu__box--active');
+    });
+
+    $('.menu__open').on('click', function () {
+        $('.wrapper').addClass('wrapper__fixed');
+    });
+
+    $('.menu__close').on('click', function () {
+        $('.wrapper').removeClass('wrapper__fixed');
+    });
+
+
     $('.events__list, .choose__list').slick({
         prevArrow: '<button type="button" class="slick-prev"><img src="images/icons/arrow-prev.svg" width="48" height="48" alt=""></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="images/icons/arrow-next.svg" width="48" height="48" alt=""></button>',
@@ -13,4 +31,5 @@ $(function () {
         dots: false,
         arrows: true,
     });
+
 });
