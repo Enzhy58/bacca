@@ -26,6 +26,10 @@ body {
     max-width: 1296px;
 }
 
+.page-section {
+    margin-bottom: 160px;
+}
+
 .sr-only {
     position: absolute;
     width: 1px;
@@ -116,10 +120,6 @@ body {
     color: #433FB5;
 }
 
-.top {
-    margin-bottom: 160px;
-}
-
 .top__title {
     display: flex;
     align-items: center;
@@ -183,7 +183,6 @@ body {
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    margin-bottom: 160px;
 }
 
 .partners__item {
@@ -242,7 +241,6 @@ body {
 .services {
     position: relative;
     top: -50px;
-    margin-bottom: 160px;
 }
 
 .services__inner {
@@ -327,10 +325,6 @@ body {
     margin-right: 20px;
 }
 
-.events {
-    margin-bottom: 160px;
-}
-
 .events__title {
     margin-bottom: 56px;
 }
@@ -392,10 +386,6 @@ body {
 .slick-prev {
     left: auto;
     right: 90px;
-}
-
-.connect {
-    margin-bottom: 160px;
 }
 
 .connect__inner {
@@ -646,7 +636,7 @@ body {
     position: absolute;
     width: 144px;
     height: 58px;
-    bottom: 50%;
+    bottom: 2%;
     left: 25%;
     background-image: url(../images/icons/arrow-tell.svg);
     background-repeat: no-repeat;
