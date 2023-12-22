@@ -971,7 +971,7 @@ body {
 
     .title {
         font-size: 30px;
-        margin-bottom: 100px;
+        line-height: 40px;
     }
 
     .top__title--big {
@@ -988,6 +988,10 @@ body {
 
     .technologies__list {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .events__title {
+        margin-bottom: 100px;
     }
     
 }
@@ -1154,6 +1158,10 @@ body {
         margin-bottom: 40px;
     }
 
+    .connect__inner::before {
+        display: none;
+    }
+
 }
 
 @media (max-width: 576px) {
@@ -1202,9 +1210,23 @@ body {
         max-width: 100%;
     }
 
+    .connect__title {
+        margin-bottom: 24px;
+    }
+
+    .connect__text {
+        margin-bottom: 30px;
+    }
+
 }
 
 @media (max-width: 480px) {
+
+    .link--violet {
+        display: block;
+        font-size: 14px;
+        line-height: 16px;
+    }
 
     .top__title {
         margin-bottom: 32px;
