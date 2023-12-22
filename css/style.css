@@ -969,6 +969,11 @@ body {
 
 @media (max-width: 990px) {
 
+    .title {
+        font-size: 30px;
+        margin-bottom: 100px;
+    }
+
     .top__title--big {
         font-size: 230px;
     }
@@ -1153,6 +1158,11 @@ body {
 
 @media (max-width: 576px) {
 
+    .title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
     .header {
         padding: 24px 16px;
     }
@@ -1182,6 +1192,14 @@ body {
 
     .top__link {
         display: block;
+    }
+
+    .events__item {
+        margin: 0 10px;
+    }
+
+    .article {
+        max-width: 100%;
     }
 
 }
