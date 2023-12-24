@@ -971,6 +971,10 @@ body {
         line-height: 55px;
     }
 
+    .filters {
+        margin-bottom: 100px;
+    }
+
 }
 
 @media (max-width: 990px) {
@@ -998,6 +1002,10 @@ body {
 
     .events__title {
         margin-bottom: 100px;
+    }
+
+    .choose__text {
+        font-size: 18px;
     }
     
 }
@@ -1168,6 +1176,10 @@ body {
         display: none;
     }
 
+    .success {
+        margin-bottom: -220px;
+    }
+
     .success__title {
         margin-bottom: 100px;
     }
@@ -1180,7 +1192,16 @@ body {
         margin: 0 auto;
     }
 
+    .choose__title {
+        margin-bottom: 24px;
+    }
 
+    .choose__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 24px;
+    }
 
 }
 
@@ -1189,6 +1210,10 @@ body {
     .title {
         font-size: 20px;
         line-height: 24px;
+    }
+
+    .link--light {
+        font-size: 12px;
     }
 
     .header {
@@ -1236,6 +1261,45 @@ body {
 
     .connect__text {
         margin-bottom: 30px;
+    }
+
+    .filters__item {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .choose__item {
+        padding: 30px 20px;
+    }
+
+    .direction__title {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    .direction__list {
+        margin-bottom: 12px;
+    }
+
+    .direction__item {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .direction__item span {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .direction__item:nth-child(1),
+    .direction__item:nth-child(2) {
+        margin-bottom: 16px;
+    }
+
+    .skills__item {
+        font-size: 12px;
+        padding: 4px 12px;
     }
 
 }

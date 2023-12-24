@@ -64,6 +64,20 @@ $(function () {
         slidesToShow: 3,
         dots: false,
         arrows: true,
+        responsive: [
+            {
+                breakpoint: 990,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
     });
     $('.portfolio__slider').slick({
         prevArrow: '<button type="button" class="slick-prev"><img src="images/icons/arrow-prev.svg" width="48" height="48" alt=""></button>',
