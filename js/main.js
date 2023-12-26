@@ -79,6 +79,25 @@ $(function () {
         ]
     });
 
+    $('.industries__list').slick({
+        prevArrow: '<button type="button" class="slick-prev"><img src="images/icons/arrow-prev.svg" width="48" height="48" alt=""></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="images/icons/arrow-next.svg" width="48" height="48" alt=""></button>',
+        dots: false,
+        arrows: true,
+        responsive: [
+            {
+                breakpoint: 2048,
+                settings: "unslick"
+            },
+            {
+                breakpoint: 990,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+
     $('.portfolio__slider').slick({
         prevArrow: '<button type="button" class="slick-prev"><img src="images/icons/arrow-prev.svg" width="48" height="48" alt=""></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="images/icons/arrow-next.svg" width="48" height="48" alt=""></button>',
